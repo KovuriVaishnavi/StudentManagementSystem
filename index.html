@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Student Management System</h1></header>
+    <form id="formEle">
+        <input placeholder="enter rollno" type="text" id="rollno">
+        <input placeholder="enter name" type="text" id="name">
+        <input placeholder="enter age" type="text" id="age">
+        <input placeholder="enter couse name" type="text" id="course">
+        <button onclick="addStudent(event)" >addStudent</button>
+
+        <button onclick="display()" >display</button>
+       
+    </form>
+    <div class="content">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>COURSE</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="t-body">
+        </tbody>
+    </table>
+</div>
+    <script src="demo.js"></script>
+</body>
+</html>
