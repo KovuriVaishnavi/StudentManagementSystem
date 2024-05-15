@@ -1,11 +1,74 @@
 {
   "students": [
     {
-      "id": "325",
+      "id": "393",
+      "rollno": "9",
+      "name": "Kovuri SaiTeja",
+      "age": "20",
+      "course": "Data Science"
+    },
+    {
+      "id": "693",
+      "rollno": "8",
+      "name": "K V",
+      "age": "20",
+      "course": "Data Science"
+    },
+    {
+      "id": "500",
+      "rollno": "6",
+      "name": "gayathri",
+      "age": "22",
+      "course": "aiml"
+    },
+    {
+      "id": "424",
+      "rollno": "7",
+      "name": "gayathri",
+      "age": "22",
+      "course": "abcd"
+    },
+    {
+      "id": "201",
+      "rollno": "4",
+      "name": "John Doe",
+      "age": "21",
+      "course": "Computer Science"
+    },
+    {
+      "id": "102",
+      "rollno": "10",
+      "name": "Jane Smith",
+      "age": "23",
+      "course": "Business Administration"
+    },
+    {
+      "id": "301",
+      "rollno": "5",
+      "name": "Alex Johnson",
+      "age": "19",
+      "course": "Engineering"
+    },
+    {
+      "id": "701",
+      "rollno": "3",
+      "name": "Emily Davis",
+      "age": "20",
+      "course": "Psychology"
+    },
+    {
+      "id": "901",
+      "rollno": "2",
+      "name": "Michael Wilson",
+      "age": "22",
+      "course": "Finance"
+    },
+    {
+      "id": "801",
       "rollno": "1",
-      "name": "K VAISHNAVI",
-      "age": "2",
-      "course": "3"
+      "name": "Sarah Brown",
+      "age": "21",
+      "course": "Marketing"
     }
   ]
 }

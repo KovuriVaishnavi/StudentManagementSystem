@@ -42,6 +42,7 @@ button:hover{
     margin-left:10px;
     background-color: bisque;
     padding: 5px;
+    
 }
 .content{
 
@@ -66,8 +67,8 @@ tr{
 }
 th{
     border:5px solid bisque;
+    
 }
 td{
     border:5px solid bisque;
-    
 }
