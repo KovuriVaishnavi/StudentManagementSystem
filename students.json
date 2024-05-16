@@ -3,14 +3,14 @@
     {
       "id": "393",
       "rollno": "9",
-      "name": "Kovuri SaiTeja",
+      "name": "SaiTeja",
       "age": "20",
-      "course": "Data Science"
+      "course": "Cyber Security"
     },
     {
       "id": "693",
       "rollno": "8",
-      "name": "K V",
+      "name": "Vaishnavi",
       "age": "20",
       "course": "Data Science"
     },
@@ -19,56 +19,63 @@
       "rollno": "6",
       "name": "gayathri",
       "age": "22",
-      "course": "aiml"
+      "course": "Artificial Intelligence"
     },
     {
       "id": "424",
       "rollno": "7",
-      "name": "gayathri",
+      "name": "Shravani",
       "age": "22",
-      "course": "abcd"
+      "course": "Machine Learning"
     },
     {
       "id": "201",
       "rollno": "4",
-      "name": "John Doe",
+      "name": "Sneha",
       "age": "21",
       "course": "Computer Science"
     },
     {
       "id": "102",
       "rollno": "10",
-      "name": "Jane Smith",
+      "name": "Sai Vaishnavi",
       "age": "23",
       "course": "Business Administration"
     },
     {
       "id": "301",
       "rollno": "5",
-      "name": "Alex Johnson",
+      "name": "Pujitha",
       "age": "19",
       "course": "Engineering"
     },
     {
       "id": "701",
       "rollno": "3",
-      "name": "Emily Davis",
+      "name": "Pravallika",
       "age": "20",
       "course": "Psychology"
     },
     {
       "id": "901",
       "rollno": "2",
-      "name": "Michael Wilson",
+      "name": "Prasanna",
       "age": "22",
       "course": "Finance"
     },
     {
       "id": "801",
       "rollno": "1",
-      "name": "Sarah Brown",
+      "name": "Sindhuja",
       "age": "21",
       "course": "Marketing"
+    },
+    {
+      "id": "516",
+      "rollno": "11",
+      "name": "Rishitha",
+      "age": "20",
+      "course": "Information Technology"
     }
   ]
 }

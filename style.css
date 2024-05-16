@@ -6,7 +6,7 @@
 }
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     color:white;
 }
 header{
@@ -27,21 +27,28 @@ header{
 }
 input{
    font-size: 20px;
+   border-radius: 10px;
+   padding: 10px;
+   
 }
 button{
    font-size: 20px;
-    
+   border-radius: 10px;
+   background-color: gray;
+    padding: 10px;
+    color: white;
 }
 input:hover{
-    border:5px solid black;
+    border:3px solid black;
 }
 button:hover{
-    border:5px solid black;
+    border:3px solid black;
 }
 #b{
     margin-left:10px;
     background-color: bisque;
     padding: 5px;
+    color: black;
     
 }
 .content{

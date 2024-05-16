@@ -10,24 +10,24 @@
 </head>
 <body>
     <header><h1>Student Management System</h1></header>
-    <form id="formEle">
+    <div id="formEle">
         <input placeholder="enter rollno" type="text" id="rollno">
         <input placeholder="enter name" type="text" id="name">
         <input placeholder="enter age" type="text" id="age">
         <input placeholder="enter couse name" type="text" id="course">
-        <button onclick="addStudent(event)" >addStudent</button>
-
-        <button onclick="display()" >display</button>
-       
-    </form>
+        <button onclick="addStudent(event)" id="bu">addStudent</button>
+        <button onclick="display()" id="bu">display</button>
+        <button onclick="searchDisplay()" id="bu">search</button>
+    </div>
+   
     <div class="content">
     <table>
         <thead>
             <tr>
-                <th>ROLLNO<button onclick="sortAsc('rollno')" id="b"><i class="fa-solid fa-sort"></i></button></th>
-                <th>NAME<button onclick="sortAsc('name')" id="b"><i class="fa-solid fa-sort"></i></button></th>
-                <th>AGE<button onclick="sortAsc('age')" id="b"><i class="fa-solid fa-sort"></i></button></th>
-                <th>COURSE<button onclick="sortAsc('course')" id="b"><i class="fa-solid fa-sort"></i></button></th>
+                <th>ROLLNO<button onclick="sortAsc('rollno')" class="sortb" id="b"><i class="fa-solid fa-sort-up"></i></button><button onclick="sortDesc('rollno')"  class="sortb" id="b"><i class="fa-solid fa-sort-down"></i></button></th>
+                <th>NAME<button onclick="sortAsc('name')" class="sortb" id="b"><i class="fa-solid fa-sort-up"></i></button><button onclick="sortDesc('name')"  class="sortb" id="b"><i class="fa-solid fa-sort-down"></i></button></th>
+                <th>AGE<button onclick="sortAsc('age')" class="sortb" id="b"><i class="fa-solid fa-sort-up"></i></button><button onclick="sortDesc('age')"  class="sortb" id="b"><i class="fa-solid fa-sort-down"></i></button></th>
+                <th>COURSE<button onclick="sortAsc('course')" class="sortb" id="b"><i class="fa-solid fa-sort-up"></i></button><button onclick="sortDesc('course')"  class="sortb" id="b"><i class="fa-solid fa-sort-down"></i></button></th>
                 <th>ACTION</th>
             </tr>
         </thead>
@@ -38,3 +38,10 @@
     <script src="demo.js"></script>
 </body>
 </html>
+        
+                
+          
+                
+            
+    
+
